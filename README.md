@@ -123,4 +123,6 @@ uplift-modeling-hillstrom/
 streamlit run dashboard/app.py
 ```
 
+Live Demo Link: https://uplift-modeling-hillstrom-2dsckuwyn9bjzgzprkhdtf.streamlit.app/
+
 Sidebar selects the campaign arm (Mens E-Mail / Womens E-Mail vs. the fixed No E-Mail control). Qini Curve and Uplift Score Distribution are wired to the real evaluation outputs described above. the Targeting Simulator slider reuses `evaluate_qini.evaluate_arm(...).uplift_at_k` at an arbitrary percentage, with no refit and no new metric.
