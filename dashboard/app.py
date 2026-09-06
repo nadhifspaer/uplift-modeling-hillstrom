@@ -18,7 +18,7 @@ sys.path.insert(0, str(SRC_DIR))
 from balance_check import CONTROL_LABEL, TREATMENT_LABELS  # ("No E-Mail", ("Mens E-Mail", "Womens E-Mail"))
 from evaluate_qini import evaluate_arm  # Read, bukan untuk predict
 
-MODEL_COMPARISON_PATH = REPORTS_DIR / "model_comparison.md"
+MODEL_COMPARISON_PATH = REPORTS_DIR / "X-Learner_results_report.md"
 BALANCE_REPORT_PATH = REPORTS_DIR / "covariate_balance_report.md"
 BUSINESS_IMPACT_PATH = REPORTS_DIR / "business_impact.md"
 HOLDOUT_SCORED_PATH = DATA_DIR / "holdout_scored.parquet"
